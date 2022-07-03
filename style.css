@@ -9,9 +9,15 @@
 }
 
 .navbar .logo {
-    color: #f9faf8;
-    font-size: 24px;
-    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    
+}
+
+.navbar .logo #logo-img {
+    width: 75px;
+    height: 50px;
+    border: 2px solid wheat;
 }
 
 .navbar .links {
@@ -23,6 +29,45 @@
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hero .secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hero .button {
+    padding-left: 20px;
+}
+
+.hero .button #signup{
+    background-color: #3882f6;
+    color: whitesmoke;
+    height: 35px;
+}
+
+.hero .hero-img {
+    padding-top: 30px;
+}
+
+.hero .hero-img #img{
+    width: 425px;
 }
