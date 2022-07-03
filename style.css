@@ -55,7 +55,7 @@
 }
 
 .hero .button {
-    padding-left: 20px;
+    padding: 50px;
 }
 
 .hero .button #signup{
@@ -66,8 +66,40 @@
 
 .hero .hero-img {
     padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 30px;
 }
 
 .hero .hero-img #img{
-    width: 425px;
+    width: fit-content;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+}
+
+.example .example-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.example .sequence {
+    display: flex;
+    justify-content: space-around;
+}
+
+.example .sequence .example-block {
+}
+
+.example .sequence .example-block #example-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
 }
