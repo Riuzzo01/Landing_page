@@ -1,0 +1,28 @@
+.header {
+    background-color: #1F2736;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    text-align: left;
+}
+
+.navbar .links {
+    text-align: right;
+    justify-content: end;
+}
+
+.links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
